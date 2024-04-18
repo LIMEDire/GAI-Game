@@ -144,44 +144,49 @@
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
+	      
        <div class="item">
         <!-- Your image here -->
         <div align="center">
-          <img src="static/images/new3.jpg" width: auto  height: auto  alt="The evolution of AI"/>
+          <img src="static/images/001.png" width: auto  height: auto  alt="The evolution of AI"/>
         </div>
-        <h2 class="subtitle has-text-centered">
-          For IAI, we highlight the role of the mixture of experts, large language models, deep reinforcement learning, retrieval-augmented generation, and generative AI in promoting adaptability and interaction with users. Additionally, the components and advantages of IAI are also presented, emphasizing its efficiency and adaptability in different applications such as optimization and traffic management. 
+	<h2 class="subtitle has-text-centered">
+          This figure illustrates the interaction between players in a non-cooperative game.
         </h2>
-      </div>
-        
-<div class="item">
-        <!-- Your image here -->
-        <img src="static/images/table.jpg"   width: auto  height: auto alt="Summary of potential issues of IAI"/>
         <h2 class="subtitle has-text-centered">
-          This table demonstrates the potential issues of IAI in Networking domain.
+          The non-cooperative game framework contains multiple players and an environment in which players interact. Each player has a strategy space that represents the available actions and a utility function that evaluates the player's payoff from taking a certain action. Additionally, the objective of each player is to take actions that maximize their own payoff. The environment represents the medium through which players interact, that matches an action profile to a payoff profile. The flow of player interaction is as follows: in the first interaction (Step 1), each player takes an action from their strategy space and receives the corresponding payoff. In subsequent interactions (Step i), each player updates their action based on the observed strategies of other players to improve their own payoff. When the actions of all players no longer change, a Nash equilibrium is obtained. 
         </h2>
       </div>
 
 <div class="item">
         <!-- Your image here -->
-        <img src="static/images/IAI_case_3.jpg"   width: auto  height: auto  alt="The framework of IAI"/>
+        <img src="static/images/002.png"   width: auto  height: auto  alt="The framework of IAI"/>
         <h2 class="subtitle has-text-centered">
-          This figure demonstrates system design based on the framework of IAI.
+          This figure showcases the proposed framework.
         </h2>
         <h2 class="subtitle has-text-justified">
-          In the IAI-enabled problem formulation framework, three key components are presented: brain, perception, and action. The brain units with LLM and RAG modules as the central processor, handling essential tasks such as memory retention, retrieval processing, and making decisions. Meanwhile, the perception module is responsible for acquiring and interpreting diverse data from the environment. Lastly, the action module implements responses and interacts with the environment, utilizing various tools for execution.
-        </h2>
+          The LLM-enabled game theory framework. The framework is based on a layered architecture consisting of an input layer, an augmented layer, a decision layer, and an output layer. The input layer captures user input queries. The augmented layer employs RAG technology to enhance user queries. The decision layer utilizes a pluggable LLM to generate responses. The output layer returns the generated results to the user.
       </div>
         
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/v1_vertical_v23-final.jpg"  width: auto  height: auto alt="Case study"/>
+        <img src="static/images/003.png"  width: auto  height: auto alt="Case study"/>
         <h2 class="subtitle has-text-centered">
-          Comparison of system performance under various optimization problem generation methods.
+          This figure demonstrates the operational flow of LLM and RAG components.
         </h2>
         <h2 class="subtitle has-text-justified">
-          The figure displays the effectiveness of the proposed IAI framework modeling against traditional real modeling (upper bound) and manual modeling approaches, where the PPO-based DRL method is set as the solution method to demonstrate the performance results.
+          The operation flow of RAG and LLM. In Part A, documents are loaded from the knowledge base, segmented into chunks, encoded into vectors, and stored in the vector database. Then, RAG retrieves the K most relevant chunks to the query of user based on semantic relevance from the vector database. In Part B, the original query and the retrieved chunks are inputted together into LLM to generate the final response.
         </h2>
+      </div>
+
+	<div class="item">
+        <!-- Your image here -->
+        <img src="static/images/004.png"  width: auto  height: auto alt="Case study"/>
+        <h2 class="subtitle has-text-centered">
+          This figure presents the results of the case study.
+        </h2>
+        <h2 class="subtitle has-text-justified">
+          The experiment results of the UAV secure communication optimization case. The scenario module presents a system model of the considered scenario. The interaction module showcases the functionality of the proposed framework. The RAG augmentation module emphasizes the operational mechanism of RAG. The evaluation results module demonstrate the effectiveness of the proposed framework.
       </div>
   </div>
 </div>
