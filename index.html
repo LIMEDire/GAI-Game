@@ -14795,16 +14795,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </div>
     <div class="content has-text-justified">
       <p>
-        3) Create DB<br>
-  <pre><code>
-      from langchain.vectorstores import Chroma
-      db = Chroma.from_documents(chunks, embedding)
-  </code></pre>
-        </p>
-    </div>
-    <div class="content has-text-justified">
-      <p>
-        4) Format Agent Reply<br>
+        3) Format Agent Reply<br>
     <pre><code>
       from langchain.prompts.chat import ChatPromptTemplate
       prompt = ChatPromptTemplate.from_template()
@@ -14813,7 +14804,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </div>
     <div class="content has-text-justified">
       <p>
-        5) Make A Retriever<br>
+        4) Make A Retriever<br>
     <pre><code>
       retriever = db.as_retriever()
       retriever.search_kwargs['k'] = 10
@@ -14822,7 +14813,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </div>
     <div class="content has-text-justified">
       <p>
-        6) Make a Chain<br>
+        5) Make a Chain<br>
     <pre><code>
       from langchain_core.output_parsers import StrOutputParser
       from langchain_core.runnables import RunnablePassthrough
