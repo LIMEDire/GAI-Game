@@ -173,7 +173,7 @@
           This figure demonstrates the operational flow of LLM and RAG components.
         </h2>
         <h2 class="subtitle has-text-justified">
-          The operation flow of RAG and LLM. In Part A, documents are loaded from the knowledge base, segmented into chunks, encoded into vectors, and stored in the vector database. Then, RAG retrieves the K most relevant chunks to the query of user based on semantic relevance from the vector database. In Part B, the original query and the retrieved chunks are inputted together into LLM to generate the final response.
+          In the framework configuration, we call the ChatGPT 4 model through the OpenAI API to implement the pluggable LLM component. Furthermore, the RAG component is built based on the LangChain. In Part A, documents are loaded from the knowledge base, segmented into chunks, encoded into vectors, and stored in the vector database. Then, RAG retrieves the K most relevant chunks to the query of user based on semantic relevance from the vector database. In Part B, the original query and the retrieved chunks are inputted together into LLM to generate the final response.
         </h2>
       </div>
 
@@ -185,6 +185,10 @@
         </h2>
         <h2 class="subtitle has-text-justified">
           The experiment results of the UAV secure communication optimization case. The scenario module presents a system model of the considered scenario. The interaction module showcases the functionality of the proposed framework. The RAG augmentation module emphasizes the operational mechanism of RAG. The evaluation results module demonstrate the effectiveness of the proposed framework.
+	 </h2>	
+	<h2 class="subtitle has-text-justified">
+	   As shown in the scenario module, consider a UAV communication network consisting of N legitimate UAV users, a destination ground base station, a friendly UAV jammer, and a malicious ground eavesdropper. These legitimate UAV users communicate with the destination base station through $N$ orthogonal channels while facing the risk of eavesdropping by the eavesdropper. The friendly UAV jammer has the capability to transmit cooperative jamming signals simultaneously over these channels to enhance the overall secrecy rate against the eavesdropper. The optimization objective is to maximize the aggregate security rate of all legitimate users through optimal power allocation of the friendly jammer across each channel.
+	</h2>	
       </div>
   </div>
 </div>
